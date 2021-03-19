@@ -50,7 +50,7 @@ const tooltip = d3.select("#map")
 //  .domain(config.colorScaleDomain)
 //  .range(config.colorScaleRange);
 
-d3.json("../assets/cantons_ch.json", function(error, geojson) {
+d3.json("assets/cantons_ch.json", function(error, geojson) {
 
   // Map projection to compute coordinates 
   const projection = d3.geoIdentity().reflectY(true).fitSize([config.width - config.padding*2, config.height - config.padding*2], geojson);
