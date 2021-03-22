@@ -45,7 +45,9 @@ const tooltip = d3.select("#map")
     .style("pointer-events", "none")
     .style("box-shadow", "0.5px 0.8px 1px 0.5px");
 
-const zoom = d3.zoom().on("zoom", zoomed);
+const zoom = d3.zoom()
+      .scaleExtent([1, 8])
+      .on('zoom', zoomed);
 var active = d3.select(null);
 
 const g =  map.append("g");
@@ -82,39 +84,37 @@ d3.json("assets/countries.json", function(error, geojson) {
           d3.select(this.parentNode.appendChild(this)).style('stroke', config.borderColor[1]).style("stroke-opacity", "1");
         }).on('mouseout', function(event, d) {
           d3.select(this).style('stroke', config.borderColor[0]).style("stroke-opacity", "1");
-        }).on("click", clicked);
+        })
+
 });
 
-
-function clicked(d) {
+d3.select("#swissButton").on("click", swissZoom )
+function swissZoom() {
   
-  if (active.node() === this) return reset();
+  if (active.node() === this) return;
   active.classed("active", false);
   active = d3.select(this).classed("active", true);
 
-  var bounds = path.bounds(d),
-      dx = bounds[1][0] - bounds[0][0],
-      dy = bounds[1][1] - bounds[0][1],
-      x = (bounds[0][0] + bounds[1][0]) / 2,
-      y = (bounds[0][1] + bounds[1][1]) / 2,
-      scale = Math.max(1, Math.min(8, 0.9 / Math.max(dx / config.width, dy / config.height))),
-      translate = [config.width / 2 - scale * x, config.height / 2 - scale * y];
+  const dx = 10.11, dy = 4.35, x = 8.224472, y = 46.815514,
+        scale = 10,//Math.max(1, Math.min(8, 0.9 / Math.max(dx / config.width, dy / config.height))),
+        translate = [config.width / 2 - scale * x, config.height / 2 - scale * y];
+
+      console.log(dx, dy, x, y, projection(x, y))
 
   svg.transition()
       .duration(750)
       // .call(zoom.translate(translate).scale(scale).event); // not in d3 v4
-      .call( zoom.transform, d3.zoomIdentity.translate(translate[0],translate[1]).scale(scale) ); // updated for d3 v4
-
-      
+      .call( zoom.transform, d3.zoomIdentity.translate(translate[0],translate[1]).scale(scale) ); // updated for d3 v4      
 }
+
 
 function zoomed() {
-  g.style("stroke-width", 1.5 / d3.event.transform.k + "px");
-  // g.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")"); // not in d3 v4
-  g.attr("transform", d3.event.transform); // updated for d3 v4
+    g.attr('transform', d3.event.transform);
+    //  .selectAll('path') // To prevent stroke width from scaling
+    //  
 }
-
-function reset() {
+d3.select("#worldButton").on("click", worldZoom )
+function worldZoom() {
   active.classed("active", false);
   active = d3.select(null);
 
