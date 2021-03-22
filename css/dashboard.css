@@ -1,5 +1,5 @@
 :root {
-  --jumbotron-padding-y: 3rem;
+  --jumbotron-padding-y: 1rem;
 }
 
 .jumbotron {
@@ -24,7 +24,63 @@
 }
 
 .jumbotron .container {
-  max-width: 40rem;
+  max-width: 50rem;
+}
+
+.customButton {
+  margin-bottom: 1rem;
+  background: #333;
+  color: #fff;
+  outline: none;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.active {
+  background: #D6121E;
+}
+
+.customButton:hover {
+  background: #D6121E;
+  color: #fff;
+  outline: none;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.customButton:focus {
+  background: #D6121E;
+  color: #fff;
+  outline: none;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.customButton:checked {
+  background: #D6121E;
+  color: #fff;
+  outline: none;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.customSelect{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 0.7901234568rem;
+  padding: 8px 24px;
+  background: #333;
+  margin-top: 1rem;
+  color: #fff;
+  border-radius: 32px;
 }
 
 footer {
