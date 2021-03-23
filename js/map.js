@@ -99,8 +99,8 @@ function initialize(error, data){
 
   d3.select("#swissButton").on("click", swissZoom )
   function swissZoom() {
-        var t = d3.transition().duration(800)
-
+        var t = d3.transition().duration(1800)
+        
         var cantonPaths = map.selectAll('.canton')
             .data(cantons.features)
 
@@ -110,7 +110,7 @@ function initialize(error, data){
             .style("stroke", config.borderColor[0])
             .style("stroke-width", "1px")
             .style("stroke-opacity", "1")
-            .style('fill', function (d) { return "#F3F3F3" })
+            .style('fill', function (d) { return "#F2F2F2" })
             .style('opacity', 0)
             .on('mouseover', function(event, d) {
               d3.select(this.parentNode.appendChild(this)).style('stroke', config.borderColor[1]);
@@ -118,7 +118,7 @@ function initialize(error, data){
               d3.select(this).style('stroke', config.borderColor[0]);
             })
 
-        projection.fitSize([config.width - config.padding*2, config.height - config.padding*2], cantons);
+       
 
         countryPaths.on('mouseover', function(event, d) {
           //disable mouseover for countries
@@ -126,11 +126,15 @@ function initialize(error, data){
           //disable mouseover for countries
         })
 
-        countryPaths.style("stroke-opacity", "0.05")
+        projection.fitSize([config.width - config.padding*2, config.height - config.padding*2], cantons);
 
         countryPaths.transition(t)
             .attr('d', path)
-            .style('fill', '#444')
+            .style("stroke-opacity", "0")
+
+        countryPaths.transition(t)
+            .attr('d', path)
+            .style('fill', '#949494')
 
         enterCantonPaths.transition(t)
             .attr('d', path)
@@ -144,13 +148,14 @@ function initialize(error, data){
 
   d3.select("#worldButton").on("click", worldZoom )
   function worldZoom() {
-    var t = d3.transition().duration(800)
+    var t = d3.transition().duration(1800)
 
-    //projection.scale(height * 2).translate([width / 2, height / 2])
     projection.fitSize([config.width - config.padding*2, config.height - config.padding*2], geojson);
 
-    countryPaths.style("stroke-opacity", "1");
-    
+    countryPaths.transition(t)
+        .attr('d', path)
+        .style("stroke-opacity", "1");
+
     countryPaths.transition(t)
         .attr('d', path)
         .style('fill', function (d) { return "#F2F2F2"})
