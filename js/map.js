@@ -45,33 +45,43 @@ const tooltip = d3.select("#map")
     .style("pointer-events", "none")
     .style("box-shadow", "0.5px 0.8px 1px 0.5px");
 
-const zoom = d3.zoom()
-      .scaleExtent([1, 8])
-      .on('zoom', zoomed);
-var active = d3.select(null);
-
-const g =  map.append("g");
-var path;
-
 // Color scales
 //const colorScale = d3.scaleLinear()
 //  .domain(config.colorScaleDomain)
 //  .range(config.colorScaleRange);
+d3.queue()
+    //.defer(d3.csv, 'data.csv', function (d) {
+    //    return {
+    //        id: +(d.state + d.county),
+    //        state: d.state,
+    //        county: d.county,
+    //        unemployment: +d.unemployment
+    //    }
+    //})
+    .defer(d3.json, 'assets/countries.json')
+    .defer(d3.json, 'assets/cantons_ch.json')
+    .awaitAll(initialize)
 
-d3.json("assets/countries.json", function(error, geojson) {
-//Promise.all([d3.json("assets/cantons_chd.json")]).then(function(data) {
-  //const geojson = data[0];
+function initialize(error, data){
+  if (error) { throw error }
+
+  // Get data
+  const geojson = data[0];
+  const cantons = data[1];
+
   // Map projection to compute coordinates 
-  const projection = d3.geoIdentity().reflectY(true).fitSize([config.width - config.padding*2, config.height - config.padding*2], geojson);
-  path = d3.geoPath().projection(projection);
+  const projection = d3.geoIdentity().reflectY(true).fitSize([config.width - config.padding*2, config.height - config.padding*2], geojson);//translate([config.width/2, config.height/2]).scale(2)
+  const path = d3.geoPath().projection(projection);
 
   // Draw the map
-  g
-    .attr("transform", "translate(" + config.padding + "," + config.padding + ")")
-    .selectAll("path")
+  const countryPaths = map
+    //.attr("transform", "translate(" + config.padding + "," + config.padding + ")")
+    .selectAll(".country")
       .data(geojson.features)
       .enter()
         .append("path")
+        //.filter(function(d) { return d.properties.ISO_A3 != 'CHE' })
+        .attr('class', 'country')
         .attr("fill", function (d) {
             return "#F2F2F2"
         })
@@ -81,53 +91,83 @@ d3.json("assets/countries.json", function(error, geojson) {
         .style("stroke-width", "1px")
         .style("stroke-opacity", "1")
         .on('mouseover', function(event, d) {
-          d3.select(this.parentNode.appendChild(this)).style('stroke', config.borderColor[1]).style("stroke-opacity", "1");
+          d3.select(this.parentNode.appendChild(this)).style('stroke', config.borderColor[1]);
         }).on('mouseout', function(event, d) {
-          d3.select(this).style('stroke', config.borderColor[0]).style("stroke-opacity", "1");
+          d3.select(this).style('stroke', config.borderColor[0]);
         })
 
-});
 
-d3.select("#swissButton").on("click", swissZoom )
-function swissZoom() {
-  
-  if (active.node() === this) return;
-  active.classed("active", false);
-  active = d3.select(this).classed("active", true);
+  d3.select("#swissButton").on("click", swissZoom )
+  function swissZoom() {
+        var t = d3.transition().duration(800)
 
-  const dx = 10.11, dy = 4.35, x = 8.224472, y = 46.815514,
-        scale = 10,//Math.max(1, Math.min(8, 0.9 / Math.max(dx / config.width, dy / config.height))),
-        translate = [config.width / 2 - scale * x, config.height / 2 - scale * y];
+        var cantonPaths = map.selectAll('.canton')
+            .data(cantons.features)
 
-      console.log(dx, dy, x, y, projection(x, y))
+        var enterCantonPaths = cantonPaths.enter().append('path')
+            .attr('class', 'canton')
+            .attr('d', path)
+            .style("stroke", config.borderColor[0])
+            .style("stroke-width", "1px")
+            .style("stroke-opacity", "1")
+            .style('fill', function (d) { return "#F3F3F3" })
+            .style('opacity', 0)
+            .on('mouseover', function(event, d) {
+              d3.select(this.parentNode.appendChild(this)).style('stroke', config.borderColor[1]);
+            }).on('mouseout', function(event, d) {
+              d3.select(this).style('stroke', config.borderColor[0]);
+            })
 
-  svg.transition()
-      .duration(750)
-      // .call(zoom.translate(translate).scale(scale).event); // not in d3 v4
-      .call( zoom.transform, d3.zoomIdentity.translate(translate[0],translate[1]).scale(scale) ); // updated for d3 v4      
-}
+        projection.fitSize([config.width - config.padding*2, config.height - config.padding*2], cantons);
 
+        countryPaths.on('mouseover', function(event, d) {
+          //disable mouseover for countries
+        }).on('mouseout', function(event, d) {
+          //disable mouseover for countries
+        })
 
-function zoomed() {
-    g.attr('transform', d3.event.transform);
-    //  .selectAll('path') // To prevent stroke width from scaling
-    //  
-}
-d3.select("#worldButton").on("click", worldZoom )
-function worldZoom() {
-  active.classed("active", false);
-  active = d3.select(null);
+        countryPaths.style("stroke-opacity", "0.05")
 
-  svg.transition()
-      .duration(750)
-      // .call( zoom.transform, d3.zoomIdentity.translate(0, 0).scale(1) ); // not in d3 v4
-      .call( zoom.transform, d3.zoomIdentity ); // updated for d3 v4
-}
+        countryPaths.transition(t)
+            .attr('d', path)
+            .style('fill', '#444')
 
-// If the drag behavior prevents the default click,
-// also stop propagation so we don’t click-to-zoom.
-function stopped() {
-  if (d3.event.defaultPrevented) d3.event.stopPropagation();
+        enterCantonPaths.transition(t)
+            .attr('d', path)
+            .style('opacity', 1)
+
+        cantonPaths.exit().transition(t)
+            .attr('d', path)
+            .style('opacity', 0)
+            .remove()
+  }
+
+  d3.select("#worldButton").on("click", worldZoom )
+  function worldZoom() {
+    var t = d3.transition().duration(800)
+
+    //projection.scale(height * 2).translate([width / 2, height / 2])
+    projection.fitSize([config.width - config.padding*2, config.height - config.padding*2], geojson);
+
+    countryPaths.style("stroke-opacity", "1");
+    
+    countryPaths.transition(t)
+        .attr('d', path)
+        .style('fill', function (d) { return "#F2F2F2"})
+
+    countryPaths.on('mouseover', function(event, d) {
+                d3.select(this.parentNode.appendChild(this)).style('stroke', config.borderColor[1]);
+              }).on('mouseout', function(event, d) {
+                d3.select(this).style('stroke', config.borderColor[0]);
+              })
+
+    map.selectAll('.canton')
+        .data([])
+        .exit().transition(t)
+        .attr('d', path)
+        .style('opacity', 0)
+        .remove()
+  }
 }
 
 
