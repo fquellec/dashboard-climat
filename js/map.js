@@ -1,7 +1,7 @@
 // Define Default constants
 const config = {
   width               : window.innerWidth,
-  height              : 400,
+  height              : 550,
   padding             : 0,
   colorScaleDomain    : [0, 100],
   colorScaleRange     : ["#ececec", "#4285F4"],
@@ -108,8 +108,9 @@ function initialize(error, data){
     var minPm = d3.min(bubbleData, function(d) { return +d.value; });
     var maxPm = d3.max(bubbleData, function(d) { return +d.value; });
     console.log("min PM: ",  minPm, " ; max PM: ", maxPm)
-    var color = d3.scaleLinear()
-      .domain([0, 100])
+    var color = d3.scalePow()
+      .exponent(0.5)
+      .domain([minPm, maxPm])
       .range(["#FFCE03", "#F00505"])
 
     // Add a scale for bubble size
@@ -117,7 +118,7 @@ function initialize(error, data){
     var maxPop = d3.max(bubbleData, function(d) { return +d.population; });
     var size = d3.scaleLinear()
       .domain([minPop,maxPop])  // What's in the data
-      .range([ 1, 8])  // Size in pixel
+      .range([ 3, 15])  // Size in pixel
 
     // Bubbles 
     const bubbles = map
@@ -157,8 +158,7 @@ function initialize(error, data){
 
           var textToDisplay = "<b>" + d.city + ", " + d.country + "</b><br>" 
                               + "<b>Population : </b>" + d.population + "M<br>"
-                              + "<b>PM2.5      : </b>" + d.value + " μg/m<sup>3</sup><br>"
-                              + d.lat + ", "+d.lon;
+                              + "<b>PM2.5      : </b>" + d.value + " μg/m<sup>3</sup><br>";
 
 
           tooltip
@@ -203,10 +203,14 @@ function initialize(error, data){
 
         projection.fitSize([config.width - config.padding*2, config.height - config.padding*2], cantons);
 
+        var sizeCH = d3.scaleLinear()
+        .domain([0,1000])  // What's in the data
+        .range([ 3, 15])  // Size in pixel
+
         bubbles.transition(t)
             .attr("cx", function(d){ return projection([d.lon, d.lat])[0] })
-            .attr("cy", function(d){ d3.select(this.parentNode.appendChild(this));return projection([d.lon, d.lat])[1] });
-
+            .attr("cy", function(d){ d3.select(this.parentNode.appendChild(this));return projection([d.lon, d.lat])[1] })
+            .attr("r", function(d){ return sizeCH(d.population) });
         
 
         countryPaths.transition(t)
@@ -232,11 +236,11 @@ function initialize(error, data){
     var t = d3.transition().duration(1800)
 
     projection.fitSize([config.width - config.padding*2, config.height - config.padding*2], geojson);
-    
+
     bubbles.transition(t)
           .attr("cx", function(d){ return projection([d.lon, d.lat])[0] })
-          .attr("cy", function(d){ d3.select(this.parentNode.appendChild(this));return projection([d.lon, d.lat])[1] });
-
+          .attr("cy", function(d){ d3.select(this.parentNode.appendChild(this));return projection([d.lon, d.lat])[1] })
+          .attr("r", function(d){ return size(d.population) });
     countryPaths.transition(t)
         .attr('d', path)
         .style("stroke-opacity", "1");
