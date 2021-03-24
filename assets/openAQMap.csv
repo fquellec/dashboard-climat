@@ -1,0 +1,819 @@
+country_iso,country_name,city_name,population,lat,lon,value
+IN,India,Davanagere,   521,14.4608,75.9199,430.37
+IN,India,Gulbarga,   688,17.3333,76.8333,375.75
+IN,India,Jodhpur,  1 510,26.2392,73.0158,226.59
+IN,India,Ajmer,   622,26.4500,74.6333,189.87
+IN,India,Siliguri,  1 057,26.7161,88.4236,175.36
+IN,India,Varanasi (Benares),  1 693,25.3164,82.9822,162.26
+BD,Bangladesh,Rupganj,   522,23.7926,90.5206,158.29
+BD,Bangladesh,Dhaka,  21 741,23.7104,90.4074,158.29
+NP,Nepal,Kathmandu,  1 472,27.7017,85.3206,141.6
+IN,India,Agartala,   595,23.8364,91.2750,134.38
+NE,Niger,Niamey,  1 336,13.5137,2.1098,128.71
+IN,India,Guwahati (Gauhati),  1 135,26.1735,91.7503,122.82
+IN,India,Shimoga,   381,13.9316,75.5679,119.62
+US,United States of America,Provo-Orem,   793,40.2338,-111.6585,119.19
+TD,Chad,N'Djaména,  1 476,12.1067,15.0444,116.4
+IN,India,Kolkata (Calcutta),  14 974,22.5335,88.3560,114.48
+CN,China,Changzhi,   868,36.1921,113.1155,109.89
+CN,China,Yuncheng,   703,35.0231,110.9928,107.46
+MG,Mongolia,Ulaanbaatar,  1 615,47.9077,106.8832,107.17
+IN,India,Durgapur,   687,23.5204,87.3119,104.24
+IN,India,Bhiwandi,   874,19.3000,73.0667,103.75
+IN,India,Kharagpur,   330,22.3263,87.3192,98.68
+IN,India,Lucknow,  3 765,26.8500,80.9167,97.49
+CN,China,Akesu,   428,41.1695,80.2626,96.88
+IN,India,Ahmadabad,  8 253,23.0333,72.6167,96.85
+IN,India,Patna,  2 482,25.6000,85.1167,91.91
+IN,India,Hyderabad,  10 269,17.3753,78.4744,87.35
+IN,India,Ujjain,   618,23.1833,75.7667,86.78
+IN,India,Moradabad,  1 232,28.8333,78.7833,85.25
+IN,India,Agra,  2 262,27.1833,78.0167,84.88
+NP,Nepal,Pokhara,   439,28.2333,83.9833,84.01
+IN,India,Muzaffarpur,   516,26.1167,85.4000,81.96
+IN,India,Asansol,  1 454,23.6833,86.9833,80.95
+SD,Sudan,Al-Khartum (Khartoum),  5 989,15.5518,32.5324,79.08
+IN,India,Delhi,  31 181,28.6667,77.2167,79.01
+IN,India,Bhopal,  2 447,23.2667,77.4000,78.25
+IN,India,Gaya,   576,24.7833,85.0000,77.3
+IN,India,Meerut,  1 728,28.9716,77.7193,76.64
+PK,Pakistan,Sahiwal,   444,30.6646,73.1093,76.22
+CN,China,Jiuquan,   397,39.7380,98.5042,75.78
+CN,China,Zhangye,   448,38.9342,100.4517,72.84
+IN,India,Kota,  1 431,25.1665,75.8561,72.2
+CN,China,Dezhou,  1 019,37.4518,116.3010,70.77
+IN,India,Kochi (Cochin),  3 193,9.9307,76.2601,70.74
+IN,India,Yamunanagar,   458,30.1000,77.2833,70.29
+IN,India,Kollam,  1 941,8.8806,76.5917,69.93
+CN,China,Jiayuguan,   350,39.8080,98.2761,69.56
+CN,China,Kuerle,   802,41.7646,86.1472,67.84
+MN,Mongolia,Ulaanbaatar,  1 615,47.9077,106.8832,67.68
+MX,Mexico,Durango,   643,24.0333,-104.6667,67.13
+SU,Sudan,Al-Khartum (Khartoum),  5 989,15.5518,32.5324,66.88
+KR,Republic of Korea,Cheonan,   689,36.8132,127.1410,61.39
+CN,China,Hechi,   429,24.6977,108.0808,61.34
+CN,China,"Xianyang, Shaanxi",   724,34.3386,108.7015,60.43
+PK,Pakistan,Lahore,  13 095,31.5497,74.3436,60.04
+IN,India,Mumbai (Bombay),  20 668,19.0740,72.8808,59.98
+CN,China,Liuzhou,  2 227,24.3017,109.3784,59.74
+IN,India,Udaipur,   580,24.5661,73.6911,59.39
+CN,China,"Xi'an, Shaanxi",  8 275,34.2894,108.9402,59.38
+CN,China,Laibin,   414,23.7380,109.2268,59.17
+IN,India,Nashik,  2 123,19.9833,73.8000,58.59
+IN,India,Jaipur,  4 008,26.9167,75.8167,58.01
+VM,Viet Nam,Hà Noi,  4 875,21.0245,105.8412,57.92
+CN,China,Baoji,  1 198,34.3651,107.2004,56.96
+IN,India,Rohtak,   477,28.9000,76.5667,56.04
+NI,Nigeria,Abuja,  3 464,9.0574,7.4898,55.67
+TH,Thailand,Samut Sakhon,   586,13.5475,100.2736,55.65
+MM,Myanmar,Mandalay,  1 469,21.9747,96.0836,55.62
+CN,China,Dujiangyan,   390,30.9966,103.6281,54.24
+IN,India,Tirupati,   705,13.6500,79.4167,54.17
+CN,China,Fangchenggang,   436,21.7659,108.3540,53.84
+CN,China,Weinan,   565,34.5036,109.5089,53.68
+CN,China,Baiyin,   410,36.5487,104.1831,53.58
+CN,China,Guigang,   917,23.0964,109.6092,53.22
+CN,China,Guiyang,  3 407,26.5833,106.7167,52.75
+CN,China,Qinzhou,   662,21.9681,108.6214,51.42
+IN,India,Chandrapur,   356,19.9500,79.3000,51.33
+IN,India,Karnal,   414,29.6833,76.9833,51.26
+IN,India,Kannur,  2 227,11.8729,75.3716,50.97
+MK,TFYR Macedonia,Skopje,   601,42.0000,21.4333,50.64
+IN,India,Amritsar,  1 400,31.6310,74.8755,50.63
+CN,China,Xiamen,  3 791,24.4798,118.0819,50.34
+PK,Pakistan,Peshawar,  2 273,34.0020,71.5594,50.24
+CN,China,Linfen,   891,36.0889,111.5189,49.98
+CN,China,Anshun,   619,26.2444,105.9324,49.59
+IN,India,Pune (Poona),  6 808,18.5161,73.8616,49.51
+IN,India,Ratlam,   321,23.3167,75.0667,49.45
+CN,China,Xining,  1 583,36.6167,101.7667,49.33
+UG,Uganda,Kampala,  3 470,0.3163,32.5822,48.8
+CN,China,Zhangzhou,   901,24.5133,117.6556,48.6
+NG,Nigeria,Benin City,  1 782,6.3350,5.6275,48.12
+IN,India,Rajahmundry,   552,17.0038,81.7894,48.0
+CN,China,Wuhai,   645,39.6647,106.8122,47.92
+CN,China,Guilin,  1 155,25.2819,110.2864,46.81
+CN,China,Ürümqi (Wulumqi),  4 544,43.8253,87.6038,46.81
+IN,India,Bangalore,  12 765,12.9719,77.5937,46.57
+IN,India,Ludhiana,  1 885,30.9000,75.8500,46.53
+CN,China,Changde,   853,29.0464,111.6783,46.51
+CN,China,Lanzhou,  3 154,36.0564,103.7922,46.33
+CN,China,Changji,   403,44.0117,87.3038,46.18
+CN,China,Kaili,   356,26.5834,107.9719,46.18
+CN,China,Shaoyang,   730,27.2403,111.4709,45.84
+CN,China,Hezhou,   654,24.4152,111.5540,45.83
+IN,India,Hapur,   327,28.7167,77.7833,45.67
+VN,Viet Nam,Long Xuyen,   327,10.3833,105.4167,45.6
+IN,India,Muzaffarnagar,   742,29.4667,77.6833,45.4
+TH,Thailand,Chiang Mai,  1 182,18.7904,98.9847,45.29
+IN,India,Aizawl,   378,23.7244,92.7175,45.26
+CN,China,Laixi,   523,36.8651,120.5238,44.86
+CN,China,Quanzhou,  1 756,24.8968,118.5997,44.76
+IN,India,Hisar,   359,29.1667,75.7167,44.67
+CN,China,Nanning,  3 974,22.8167,108.3167,44.66
+NG,Nigeria,Kano,  4 103,12.0001,8.5167,44.39
+CN,China,Shanghai,  27 796,31.2222,121.4581,44.23
+CN,China,Shizuishan,   527,39.2333,106.7694,43.92
+CN,China,Jinjiang,   510,24.8106,118.5773,43.84
+CN,China,Shihezi,   333,44.3075,86.0320,43.6
+IN,India,Jabalpur,  1 472,23.1670,79.9501,43.56
+CN,China,Yongzhou,   809,26.4351,111.6063,43.4
+MM,Myanmar,Yangon,  5 422,16.8053,96.1561,43.09
+CN,China,Tianjin,  13 794,39.1088,117.1886,42.51
+GN,Guinea,Conakry,  1 991,9.5716,-13.6476,41.92
+TW,"China, Taiwan Province of China",Gaoxiong,  1 542,22.6260,120.3155,41.82
+CN,China,Fuxin,   851,42.0156,121.6589,41.8
+CN,China,Yangjiang,   912,21.8614,111.9563,41.56
+CN,China,Beihai,   491,21.4785,109.1200,41.51
+CN,China,Ganzhou,  1 347,25.8500,114.9333,41.42
+CN,China,Laizhou,   397,37.1797,119.9430,41.32
+CN,China,Zhaoyuan,   355,37.3592,120.3964,41.24
+CN,China,Putian,  2 003,25.4394,119.0103,41.03
+IN,India,Dewas,   363,22.9667,76.0667,41.0
+IZ,Iraq,Baghdad,  7 323,33.3406,44.4009,40.96
+CN,China,Chenzhou,  1 004,25.8000,113.0333,40.91
+IN,India,Chennai (Madras),  11 235,13.0531,80.2488,40.73
+IN,India,Alwar,   439,27.5625,76.6250,40.72
+IN,India,Thiruvananthapuram,  2 691,8.5069,76.9569,40.54
+CN,China,Liupanshui,  1 132,26.5923,104.8377,40.41
+CN,China,Zhangjiagang,   684,31.8650,120.5389,40.28
+CN,China,Sanmenxia,   579,34.7715,111.2038,40.1
+CN,China,Chengde,   920,40.9672,117.9322,39.94
+CN,China,Ankang,   667,32.6912,109.0297,39.52
+CN,China,Shaoguan,   768,24.8000,113.5833,39.51
+CN,China,Dali,   531,25.5900,100.2235,39.12
+VN,Viet Nam,Hà Noi,  4 875,21.0245,105.8412,39.11
+IN,India,Kanpur,  3 153,26.4667,80.3500,39.1
+CN,China,Zaozhuang,  1 102,34.8647,117.5542,39.04
+CN,China,"Tangshan, Hebei",  3 563,39.6285,118.1799,38.69
+CN,China,Qingyuan,   745,23.7146,113.0297,38.62
+CN,China,"Yulin, Guangxi",   622,22.6339,110.1533,38.52
+CN,China,Wenzhou,  3 725,27.9994,120.6668,38.46
+CN,China,Taicang,   680,31.4549,121.1172,38.4
+CN,China,Hengyang,  1 574,26.8841,112.6251,38.37
+CN,China,"Taiyuan, Shanxi",  3 976,37.8619,112.5516,38.36
+CN,China,Kunming,  4 551,25.0389,102.7183,38.35
+IN,India,Bathinda,   377,30.2000,74.9500,38.27
+CN,China,Huaihua,   784,27.5494,109.9592,38.26
+VN,Viet Nam,Bien Hoa,  1 046,10.9500,106.8167,38.12
+CN,China,Haimen,   646,31.8952,121.1684,38.08
+CN,China,Shantou,  4 408,23.3681,116.7148,37.9
+CN,China,Hami,   409,42.8259,93.5169,37.88
+CN,China,Chengdu,  9 305,30.6667,104.0667,37.86
+CN,China,Tongchuan,   556,34.8988,108.9506,37.79
+CN,China,Dongying,  1 311,37.4533,118.5785,37.69
+CN,China,"Fuzhou, Fujian",  3 765,26.0754,119.2989,37.59
+IN,India,Patiala,   617,30.3267,76.4003,37.59
+CN,China,"Xingyi, Guizhou",   374,25.0945,104.8983,37.08
+CN,China,Ningde,   343,26.6617,119.5228,36.69
+CN,China,Leshan,  1 022,29.5762,103.7590,36.57
+CN,China,"Guangzhou, Guangdong",  13 635,23.1255,113.2574,36.51
+CN,China,Shiyan,  1 280,32.6445,110.7836,36.51
+CN,China,Shangrao,  1 055,28.4604,117.9531,36.42
+CN,China,Sanming,   378,26.2641,117.6191,36.33
+CN,China,Jiangyin,   875,31.9157,120.2810,36.27
+CN,China,Jinzhou,  1 169,41.1078,121.1417,36.22
+IN,India,Bijapur,   424,16.8244,75.7154,36.01
+RS,Serbia,Beograd (Belgrade),  1 402,44.8176,20.4633,35.83
+CN,China,Kunshan ,   769,31.3881,120.9629,35.74
+CN,China,Pingdu,   536,36.7808,119.9592,35.46
+CN,China,Bijie,   663,27.3070,105.2837,35.44
+CN,China,Wuzhou,   715,23.4832,111.2741,35.38
+CN,China,Beijing,  20 897,39.9075,116.3972,35.32
+CN,China,Wuhan,  8 473,30.5833,114.2667,35.3
+CH,China,"Guangzhou, Guangdong",  13 635,23.1255,113.2574,35.24
+KZ,Kazakhstan,Astana,  1 212,51.1801,71.4460,35.09
+CN,China,Yichang,  1 606,30.7144,111.2847,35.08
+CN,China,Nantong,  2 351,31.9904,120.8655,34.93
+CN,China,Panzhihua,   717,26.5851,101.7128,34.74
+CN,China,Hanzhong,   618,33.0728,107.0303,34.62
+CN,China,"Ji'an, Jiangxi",   447,27.1177,114.9804,34.46
+CN,China,Jieyang,  1 195,23.5526,116.3721,34.42
+CN,China,"Pingxiang, Jiangxi",   953,27.6348,113.8477,34.36
+CN,China,Zibo,  2 685,36.7906,118.0633,34.17
+CN,China,Qinhuangdao,  1 586,39.9317,119.5883,34.16
+ID,Indonesia,Pekan Baru,  1 238,0.5333,101.4500,34.1
+CN,China,Loudi,   664,27.7344,111.9944,34.04
+LA,Lao People's Democratic Republic,Vientiane,   694,17.9667,102.6000,33.91
+CN,China,Yinchuan,  1 627,38.4681,106.2731,33.79
+CN,China,Shenyang,  7 374,41.7922,123.4328,33.71
+CN,China,Zunyi,  1 313,27.7113,106.9365,33.71
+CN,China,Jingmen,   499,31.0417,112.2003,33.63
+CN,China,Yuxi,   694,24.3567,102.5395,33.52
+CN,China,"Yiyang, Hunan",   576,28.5666,112.3487,33.45
+CH,China,Beijing,  20 897,39.9075,116.3972,33.44
+VM,Viet Nam,Thành Pho Ho Chí Minh (Ho Chi Minh City),  8 838,10.7500,106.6667,33.36
+CN,China,Baotou,  2 239,40.6522,109.8222,33.24
+CN,China,Yaan,   372,29.9874,102.9945,33.24
+CN,China,Deyang,   886,31.1302,104.3820,33.19
+CN,China,Yunfu,   367,22.9306,112.0373,33.18
+CN,China,Changsha,  4 695,28.2274,112.9383,33.13
+CN,China,Zhaoqing,  1 051,23.0512,112.4597,33.12
+CN,China,"Suzhou, Jiangsu",  7 427,31.3021,120.5853,33.09
+CN,China,Binzhou,  1 125,37.3811,118.0109,33.02
+BA,Bosnia and Herzegovina,Sarajevo,   344,43.8486,18.3564,32.96
+CN,China,Suqian,  1 520,33.9681,118.2924,32.85
+CN,China,Zhuzhou,  1 209,27.8333,113.1500,32.75
+CN,China,Xiangyang,  1 685,32.0088,112.1440,32.74
+CN,China,Rushan,   328,36.9158,121.5267,32.66
+CN,China,Changshu,   982,31.6539,120.7467,32.64
+CN,China,Laiwu,   935,36.2074,117.6720,32.57
+CN,China,"Linyi, Shandong",  1 984,35.0541,118.3334,32.47
+CD,Democratic Republic of the Congo,Kinshasa,  14 970,-4.3276,15.3136,32.46
+CD,Congo,Brazzaville,  2 470,-4.2658,15.2832,32.46
+CN,China,Weihai,  1 348,37.5017,122.1136,32.45
+CO,Colombia,Cúcuta,   943,7.8939,-72.5078,32.34
+MX,Mexico,Monterrey,  4 956,25.6667,-100.3167,32.3
+CN,China,Wuwei,   408,37.9251,102.6337,32.21
+CN,China,"Xiangtan, Hunan",  1 170,27.8283,112.9270,32.18
+CN,China,Nanping,   501,26.6433,118.1741,32.17
+CN,China,"Taizhou, Jiangsu",  1 382,32.4945,119.9029,32.13
+TW,"China, Taiwan Province of China",Tainan,   857,23.1316,120.2590,32.12
+CN,China,Chaoyang,   547,41.5773,120.4511,32.04
+CN,China,Longyan,   704,25.1072,117.0225,32.02
+CN,China,Dazhou,   705,31.2159,107.5009,32.0
+CN,China,Hohhot,  2 239,40.8106,111.6522,31.88
+CN,China,Yantai,  2 609,37.4651,121.4372,31.78
+MX,Mexico,Toluca de Lerdo,  2 522,19.2839,-99.6573,31.76
+US,United States of America,Tulsa,   774,36.1313,-95.9373,31.73
+IN,India,Gwalior,  1 410,26.2236,78.1792,31.56
+TH,Thailand,Nonthaburi,   975,13.8602,100.5218,31.41
+CN,China,Foshan,  7 407,23.0228,113.1200,31.31
+KR,Republic of Korea,Suweon,  1 332,37.2635,127.0214,31.28
+CN,China,Jinzhong,   617,37.6882,112.7349,31.16
+CN,China,Zhanjiang,  1 315,21.2662,110.3596,31.15
+CN,China,Liaoyang,   870,41.2719,123.1731,31.14
+CN,China,Jiaxing,  1 318,30.7665,120.7482,31.12
+CN,China,Shouguang,   553,36.8788,118.7482,31.12
+IN,India,Mangalore,   724,12.9172,74.8560,31.0
+CN,China,Anyang,  1 525,36.0944,114.3503,30.98
+CN,China,Qujing,   976,25.4894,103.7977,30.94
+CN,China,Huaibei,  1 174,33.9549,116.7929,30.91
+CN,China,Anshan,  1 647,41.1236,122.9900,30.79
+CN,China,Ma'anshan,  1 052,31.7071,118.5038,30.74
+CN,China,Langfang,   763,39.5097,116.6947,30.71
+CN,China,"Fushun, Liaoning",  1 288,41.8807,123.9467,30.63
+CN,China,"Yancheng, Jiangsu",  1 908,33.3569,120.1551,30.43
+CN,China,Heyuan,   533,23.7509,114.6992,30.4
+CN,China,"Taizhou, Zhejiang",  1 993,28.6372,121.4185,30.34
+CI,Côte d'Ivoire,Abidjan,  5 355,5.3453,-4.0268,30.32
+CN,China,Ezhou,   677,30.4001,114.8846,30.24
+CN,China,Xiongan,  1 046,38.9796,116.0790,30.24
+CN,China,Yangquan,   814,37.8558,113.5826,30.06
+US,United States of America,Wichita,   531,37.6888,-97.3362,29.93
+CN,China,"Taian, Shandong",  1 364,36.1904,117.1191,29.92
+CN,China,Jiangmen,  1 713,22.5833,113.0833,29.84
+CN,China,Xuzhou,  2 193,34.2637,117.1866,29.74
+CN,China,Ningbo,  4 264,29.8782,121.5495,29.71
+CN,China,Rizhao,  1 313,35.4034,119.5120,29.71
+CN,China,Chaozhou,  1 450,23.6651,116.6379,29.66
+CN,China,Huizhou,  2 606,23.0833,114.4000,29.63
+BM,Myanmar,Yangon,  5 422,16.8053,96.1561,29.62
+UA,Ukraine,Kyiv (Kiev),  3 001,50.4454,30.5186,29.52
+CN,China,Yan'an,   710,36.5967,109.4838,29.42
+IN,India,Sagar,   445,23.8405,78.7385,29.31
+CN,China,Chuxiong,   520,25.0445,101.5410,29.29
+CN,China,Hebi,   576,35.7470,114.2956,29.19
+KR,Republic of Korea,Anyang,   565,37.3925,126.9269,29.18
+AF,Afghanistan,Kabul,  4 336,34.5289,69.1725,29.16
+CN,China,"Mianyang, Sichuan",  1 301,31.4839,104.7370,29.12
+CN,China,Baoding,  2 020,38.8511,115.4903,28.9
+IN,India,Kozhikode (Calicut),  3 742,11.2567,75.7787,28.86
+CN,China,Dongguan,  7 452,23.0212,113.7414,28.85
+CN,China,Weifang,  2 746,36.7100,119.1019,28.8
+CN,China,Tongliao,   721,43.6125,122.2653,28.8
+CN,China,Datong,  1 789,40.0805,113.2930,28.65
+CN,China,Puyang,   654,35.7705,115.0438,28.61
+CN,China,"Nanyang, Henan",  1 170,32.9999,112.5259,28.47
+CN,China,Qingdao,  5 742,36.0986,120.3719,28.44
+CN,China,Panjin,  1 076,41.1219,122.0701,28.36
+CN,China,Xinxiang,  1 100,35.2989,113.9015,28.35
+CN,China,Zigong,   747,29.3416,104.7769,28.28
+CN,China,Huludao,   790,40.7524,120.8355,28.2
+BG,Bulgaria,Sofia,  1 284,42.6975,23.3242,28.15
+CN,China,"Changzhou, Jiangsu",  3 750,31.7943,119.9589,28.15
+CN,China,Maoming,  1 239,21.6627,110.9234,27.97
+IN,India,Thrissur,  3 213,10.5167,76.2167,27.95
+CN,China,Jurong,   450,31.9498,119.1609,27.92
+CN,China,Jiaozhou,   568,36.2839,120.0033,27.9
+CN,China,Nanchong,  1 299,30.7951,106.0847,27.89
+KR,Republic of Korea,Siheung,   443,37.4556,126.9024,27.79
+CN,China,Huai'an,  2 770,33.6070,119.0148,27.75
+MX,Mexico,Ciudad de México (Mexico City),  21 919,19.4273,-99.1419,27.67
+CN,China,Liaocheng,   779,36.4551,115.9826,27.64
+CN,China,Shijiazhuang,  4 199,38.0418,114.5108,27.62
+CN,China,Bengbu,   915,32.9408,117.3608,27.53
+MX,Mexico,San Luis Potosí,  1 235,22.1500,-100.9833,27.5
+CN,China,Heze,   805,35.2451,115.4598,27.46
+CN,China,Lianyungang,  1 878,34.5969,119.1758,27.43
+CN,China,Xinyu,   891,27.8043,114.9334,27.43
+CN,China,Chongqing,  16 382,29.5628,106.5528,27.42
+CN,China,Haerbin,  6 526,45.7563,126.6467,27.4
+TI,Tajikistan,Dushanbe,   938,38.5358,68.7791,27.4
+CN,China,Luoyang,  2 462,34.6186,112.4562,27.39
+CN,China,"Yichun, Jiangxi",   975,27.8062,114.3892,27.34
+CN,China,Yangzhou,  2 039,32.3915,119.4238,27.26
+NG,Nigeria,Oshogbo,   731,7.7667,4.5667,27.24
+MX,Mexico,Celaya,   690,20.5167,-100.8167,27.18
+ZA,South Africa,Pretoria,  2 655,-25.7449,28.1878,27.15
+CN,China,Shanwei,   437,22.7787,115.3568,27.14
+PL,Poland,Kraków (Cracow),   769,50.0668,19.9425,27.12
+CN,China,Neijiang,   654,29.5835,105.0622,27.05
+CN,China,Dalian,  5 776,38.9138,121.6023,27.01
+CN,China,Cangzhou,   569,38.3167,116.8667,26.86
+CN,China,Huainan,  1 462,32.6264,116.9969,26.86
+TH,Thailand,Krung Thep (Bangkok),  10 723,13.7220,100.5252,26.75
+CN,China,Dandong,   890,40.1198,124.3739,26.72
+CN,Dem. People's Republic of Korea,Sinuiju,   327,40.1006,124.3981,26.72
+CN,China,Luzhou,   834,28.8775,105.4408,26.65
+CN,China,"Jining, Shandong",  1 518,35.4146,116.5847,26.64
+CN,China,Ziyang,   514,30.1256,104.6305,26.56
+CN,China,"Zhenjiang, Jiangsu",  1 200,32.2027,119.4489,26.36
+TJ,Tajikistan,Dushanbe,   938,38.5358,68.7791,26.36
+CN,China,"Wuhu, Anhui",  1 961,31.3336,118.3812,26.36
+IN,India,Puducherry,   856,11.9300,79.8300,26.29
+KZ,Kazakhstan,Almaty,  1 928,43.2472,76.9101,26.28
+CN,China,Shenzhen,  12 592,22.5415,114.0634,26.25
+CN,China,Chuzhou,   537,32.2985,118.3164,26.11
+CN,China,"Pingdingshan, Henan",  1 193,33.7417,113.3040,26.04
+KG,Kyrgyzstan,Bishkek,  1 060,42.8700,74.5900,26.04
+TW,"China, Taiwan Province of China",Jilong,   369,25.1309,121.7361,26.02
+MX,Mexico,Cuernavaca,  1 091,18.9167,-99.2500,25.99
+CN,China,Bayannaoer,   453,40.7505,107.4052,25.96
+IN,India,Jalandhar,  1 074,31.3256,75.5792,25.95
+CN,China,Zhongshan,  2 942,22.5180,113.3839,25.94
+CN,China,Xuchang,  1 002,34.0167,113.8167,25.91
+CN,China,Hengshui,   892,37.7411,115.6781,25.86
+CN,China,Kaifeng,  1 318,34.7911,114.3483,25.82
+CN,China,Tieling,   416,42.2931,123.8414,25.82
+US,United States of America,Shreveport,   323,32.4680,-93.7711,25.78
+CN,China,Yibin,   831,28.7667,104.6238,25.78
+CN,China,Xingyang,   412,34.7916,113.3834,25.76
+CN,China,Jiaozuo,   776,35.2397,113.2331,25.75
+MX,Mexico,Saltillo,  1 001,25.4167,-101.0000,25.73
+CN,China,Mudanjiang,   942,44.5833,129.6000,25.65
+CN,China,Meishan,   749,30.0761,103.8456,25.59
+CN,China,Baicheng,   338,45.6183,122.8418,25.47
+CN,China,"Wuxi, Jiangsu",  3 315,31.5367,120.2986,25.16
+CN,China,"Lishui, Zhejiang",   437,28.4570,119.9192,25.12
+CA,United States of America,Detroit,  3 530,42.3871,-83.1026,25.0
+CA,Canada,Windsor,   338,42.2811,-83.0079,25.0
+CN,China,"Suzhou, Anhui",  1 220,33.6359,116.9747,24.96
+IT,Italy,Milano (Milan),  3 144,45.5531,9.1834,24.95
+CN,China,Shangqiu,   850,34.4244,115.6514,24.94
+CN,China,Meizhou,   403,24.2989,116.1214,24.89
+CN,China,Jincheng,   764,35.4865,112.8515,24.88
+CN,China,Zhaotong,   348,27.3363,103.7189,24.76
+CN,China,Pingliang,   396,35.5392,106.6861,24.68
+CN,China,Tongling,   716,30.9363,117.8109,24.66
+GH,Ghana,Kumasi,  3 490,6.6885,-1.6244,24.64
+CN,China,Shuozhou,   584,39.3158,112.4225,24.61
+CN,"China, Macao SAR",Macao,   662,22.2006,113.5461,24.49
+CN,China,Changchun,  4 521,43.8825,125.2940,24.49
+CN,China,Yingkou,  1 252,40.6648,122.2283,24.44
+CN,China,Yining,   362,43.9196,81.3161,24.41
+TW,"China, Taiwan Province of China",Xinbei,  4 435,25.0121,121.4621,24.38
+BH,Bahrain,Al-Manamah (Manama),   664,26.2154,50.5832,24.32
+CN,China,Anqing,   745,30.5430,117.0533,24.31
+CN,China,Daye,   593,30.0987,114.9703,24.28
+CN,China,Rongcheng,   413,37.1540,122.4363,24.24
+NG,Nigeria,Ife,   385,7.4773,4.5589,24.24
+CN,China,Guang'an,   504,30.4639,106.6351,24.16
+CN,China,Huangshi,   844,30.2068,115.0855,24.15
+CN,China,"Fuzhou, Jiangxi",  1 029,27.9812,116.3557,24.05
+CN,China,Quzhou,   798,28.9594,118.8686,23.81
+CN,China,Zhengzhou,  5 510,34.7578,113.6486,23.81
+ID,Indonesia,Jakarta,  10 915,-6.2118,106.8416,23.8
+GM,Gambia,Banjul,   459,13.4531,-16.6794,23.69
+CN,China,Fuyang,  1 065,32.8895,115.8152,23.51
+CN,China,Wulanhaote,   342,46.0748,122.0679,23.51
+CN,China,Danzhou,   409,19.5166,109.5752,23.42
+CN,China,Yixing,   442,31.3599,119.7763,23.28
+CN,China,Zhuhai,  1 804,22.2769,113.5678,23.24
+CN,China,Nanchang,  3 710,28.6833,115.8833,23.18
+IN,India,Chandigarh,  1 169,30.7343,76.7933,23.17
+CN,China,Suizhou,   452,31.7111,113.3631,23.13
+CN,China,Tianshui,   790,34.5809,105.7237,23.12
+MY,Singapore,Singapore,  5 992,1.2897,103.8501,23.03
+CN,China,Luohe,  1 096,33.5731,114.0241,22.94
+BR,Brazil,São Paulo,  22 237,-23.5475,-46.6361,22.9
+CN,China,"Jingzhou, Hubei",  1 055,30.3276,112.2484,22.86
+SA,Saudi Arabia,Thuqbah,   352,26.2694,50.1986,22.84
+SA,Saudi Arabia,Khubar,   338,26.2794,50.2083,22.84
+GB,United Kingdom,London,  9 426,51.5085,-0.1257,22.8
+CN,China,Hegang,   645,47.3443,130.2937,22.73
+CN,China,Siping,   605,43.1633,124.3686,22.6
+CN,China,Yueyang,  1 021,29.3722,113.1153,22.57
+CN,China,Xiaogan,   806,30.9256,113.9175,22.28
+CN,China,Benxi,  1 176,41.2886,123.7650,22.26
+CN,China,Hefei,  4 371,31.8639,117.2808,22.25
+CN,China,Jingdezhen,   401,29.2947,117.2079,22.12
+CN,China,"Suining, Sichuan",   717,30.5236,105.5639,22.11
+CN,China,"Yulin, Shaanxi",   707,38.2838,109.7315,22.09
+CN,China,Liyang,   464,31.4230,119.4837,21.92
+CN,China,Liuan,  1 261,31.7543,116.4981,21.89
+TW,"China, Taiwan Province of China",Taizhong,  1 338,24.1416,120.6727,21.87
+CN,China,Shuangyashan,   507,46.6361,131.1539,21.77
+IT,Italy,Brescia,   487,45.5248,10.2273,21.6
+CN,China,Chizhou,   478,30.6578,117.4831,21.54
+CN,China,Hangzhou,  7 846,30.2937,120.1614,21.49
+CN,China,"Ji'nan, Shandong",  5 514,36.6767,116.9971,21.31
+CN,China,Xingtai,   850,37.0631,114.4942,21.31
+GH,Ghana,Accra,  2 557,5.5560,-0.1969,21.3
+US,United States of America,Dallas-Fort Worth,  6 397,32.7254,-97.3209,21.26
+CN,China,Guangyuan,   557,32.4420,105.8230,21.23
+CN,China,Bozhou,   773,33.8703,115.7770,21.16
+CN,China,Qitaihe,   588,45.7671,130.9750,21.12
+CN,China,Xianning,   353,29.8356,114.3303,21.11
+CN,China,Handan,  2 824,36.6006,114.4678,21.1
+CN,China,Xinyang,   817,32.1289,114.0746,21.03
+CN,China,Huangshan,   411,29.7127,118.3225,20.98
+BR,Brazil,Campinas,  3 344,-22.9109,-47.0656,20.95
+CN,China,Zhangjiakou,  1 469,40.8100,114.8794,20.85
+CN,China,Bazhong,  1 058,31.8662,106.7325,20.73
+CN,China,Baishan,   859,41.9373,126.4229,20.6
+MX,Mexico,Irapuato,   460,20.6784,-101.3465,20.55
+CN,China,Haikou,  1 932,20.0274,110.3301,20.54
+PE,Peru,Trujillo,   878,-8.1160,-79.0300,20.51
+CN,China,Xuancheng,   484,30.9490,118.7524,20.51
+CN,China,Suihua,   429,46.6366,126.9830,20.46
+CN,China,Xinzhou,   385,38.4173,112.7331,20.44
+CN,China,"Nanjing, Jiangsu",  9 144,32.0482,118.7898,20.43
+CN,China,Jinhua,  1 170,29.0807,119.6464,20.34
+TW,"China, Taiwan Province of China",Taoyuan,  2 272,24.9936,121.2969,20.26
+CN,China,Huzhou,  1 016,30.8703,120.0933,20.11
+CN,China,Liaoyuan,   376,42.9036,125.1358,20.06
+CN,China,Jiamusi,   727,46.7979,130.3302,20.0
+CL,Chile,Valparaíso,   992,-33.0393,-71.6273,19.93
+TH,Thailand,Pathum Thani,   926,14.0135,100.5305,19.88
+CN,China,Jiujiang,   937,29.7041,116.0013,19.83
+CN,China,Shaoxing,  2 633,30.0110,120.5715,19.8
+KE,Kenya,Ruiru,   407,-1.1515,36.9519,19.75
+CN,China,Zhoushan,   660,29.9885,122.2135,19.67
+CN,China,Zhumadian,   747,32.9794,114.0294,19.57
+CN,China,Qiqihaer,  1 584,47.3408,123.9672,19.56
+US,United States of America,Denton-Lewisville,   452,33.0467,-96.9941,19.44
+IN,India,Shillong,   472,25.5689,91.8831,19.37
+ET,Ethiopia,Addis Ababa,  5 006,9.0250,38.7469,19.2
+CL,Chile,Temuco,   346,-38.7333,-72.6000,19.19
+CN,China,Zhoukou,   671,33.6174,114.6461,19.13
+CO,Colombia,Bogotá,  11 167,4.6097,-74.0818,19.03
+CN,China,Yiwu,  1 387,29.3151,120.0768,19.02
+IN,India,Satna,   350,24.5833,80.8333,18.95
+GT,Guatemala,Ciudad de Guatemala (Guatemala City),  2 983,14.6127,-90.5307,18.89
+PE,Peru,Lima,  10 883,-12.0432,-77.0282,18.79
+CN,China,Enshi,   619,30.2902,109.4785,18.78
+IT,Italy,Modena,   358,44.6478,10.9254,18.71
+CA,Canada,Toronto,  6 255,43.7001,-79.4163,18.66
+CN,China,"Jixi, Heilongjiang",   963,45.2958,130.9701,18.52
+CN,China,Yanji,   717,42.9075,129.5078,18.24
+US,United States of America,Kansas City,  1 698,39.1142,-94.6275,18.23
+TH,Thailand,Udon Thani,   577,17.4157,102.7859,18.2
+CN,China,Shangyu,   524,30.0311,120.8722,18.16
+AE,United Arab Emirates,Dubayy (Dubai),  2 921,25.2721,55.3113,17.96
+AZ,Azerbaijan,Baku,  2 371,40.3777,49.8920,17.95
+CN,China,Kelamayi,   469,45.5941,84.8729,17.88
+TW,"China, Taiwan Province of China",Xinzhu,   454,24.8036,120.9686,17.68
+MX,Mexico,Mérida,  1 181,20.9667,-89.6167,17.61
+CN,China,Lvliang,   465,37.5195,111.1318,17.59
+CL,Chile,Concepción,   892,-36.8270,-73.0498,17.38
+CN,China,Jilin,  1 623,43.8508,126.5603,17.36
+LB,Lebanon,Bayrut (Beirut),  2 435,33.9000,35.4833,17.19
+AM,Armenia,Yerevan,  1 089,40.1820,44.5146,17.16
+MX,Mexico,Pachuca de Soto,   646,20.1170,-98.7333,17.1
+TW,"China, Taiwan Province of China",Taibei,  2 731,25.0470,121.5457,17.06
+KE,Kenya,Nairobi,  4 922,-1.2833,36.8167,17.05
+CN,China,Daqing,  1 907,46.5833,125.0000,16.96
+US,United States of America,Mobile,   333,30.6944,-88.0431,16.83
+CN,China,Chifeng,  1 195,42.2646,118.9152,16.62
+CH,Switzerland,Lausanne,   448,46.5160,6.6328,16.55
+US,United States of America,Fayetteville-Springdale,   525,36.1867,-94.1295,16.54
+CH,Switzerland,Basel,   563,47.5584,7.5733,16.53
+US,United States of America,Madison,   494,43.0697,-89.4001,16.43
+BR,Brazil,Jundiaí,   688,-23.1883,-46.8913,16.4
+US,Mexico,Tijuana,  2 181,32.5333,-117.0167,16.29
+FR,France,Nice-Cannes,   943,43.6646,7.1534,16.28
+FR,France,Bordeaux,   980,44.8404,-0.5805,16.27
+US,United States of America,Daytona Beach-Port Orange,   487,29.1383,-80.9956,16.15
+IL,Israel,Tel Aviv-Yafo (Tel Aviv-Jaffa),  4 264,32.0809,34.7806,16.01
+MY,Malaysia,Johor Bahru,  1 045,1.4655,103.7578,15.98
+CN,China,Erduosi (Ordoss),   730,39.5917,109.7666,15.96
+MX,Mexico,Tepic,   558,21.5000,-104.9000,15.94
+CN,China,Zhuji,   797,29.7132,120.2368,15.92
+PL,Poland,Lublin,   333,51.2500,22.5667,15.84
+KR,Republic of Korea,Seoul,  9 968,37.5683,126.9778,15.84
+MX,Mexico,Xalapa,   787,19.5377,-96.9137,15.84
+FR,France,Lyon,  1 734,45.7485,4.8467,15.66
+US,United States of America,Montgomery,   360,32.3720,-86.3045,15.42
+MG,Madagascar,Antananarivo,  3 532,-18.9137,47.5361,15.41
+US,United States of America,Bridgeport-Stamford,   955,41.1670,-73.2048,15.39
+PH,Philippines,Bacoor,   704,14.4130,120.9737,15.34
+HN,Honduras,Tegucigalpa,  1 485,14.0818,-87.2068,15.28
+US,United States of America,New Haven,   595,41.3019,-72.9299,15.11
+US,United States of America,Albany,   632,42.6600,-73.7800,14.99
+CN,China,"Yichun, Heilongjiang",   594,47.7245,128.8337,14.96
+FR,France,Nantes,   685,47.2173,-1.5534,14.95
+PL,Poland,Poznań,   528,52.4069,16.9299,14.95
+MX,Mexico,Aguascalientes,  1 125,21.8833,-102.3000,14.94
+US,United States of America,Baton Rouge,   746,30.4508,-91.1546,14.93
+PK,Pakistan,Islamabad,  1 164,33.7035,73.0594,14.88
+CN,China,Tonghua,   584,41.7201,125.9281,14.84
+US,United States of America,The Woodlands,   609,30.1630,-95.4558,14.72
+MX,Mexico,León de los Aldamas,  1 849,21.1234,-101.6805,14.64
+PT,Portugal,Lisboa (Lisbon),  2 972,38.7169,-9.1399,14.61
+PL,Poland,Wrocław,   642,51.1000,17.0333,14.6
+PH,Philippines,Manila,  14 159,14.6042,120.9822,14.5
+PH,Philippines,Antipolo,   903,14.6235,121.1245,14.5
+CA,Canada,Hamilton,   771,43.2495,-79.8475,14.48
+GR,Greece,Thessaloniki,   813,40.6403,22.9439,14.19
+US,United States of America,Philadelphia,  5 734,39.9523,-75.1638,14.18
+FR,France,Saint-Étienne,   376,45.4333,4.4000,14.1
+GB,United Kingdom,Southend-On-Sea,   314,51.5378,0.7143,14.0
+NL,Netherlands,Eindhoven,   362,51.4408,5.4778,13.96
+KW,Kuwait,Al Kuwayt (Kuwait City),  3 177,29.3697,47.9783,13.92
+GB,United Kingdom,Bournemouth/Poole,   510,50.7205,-1.8795,13.92
+US,United States of America,Oklahoma City,   998,35.4675,-97.5164,13.89
+BR,Brazil,Baixada Santista,  1 911,-23.9570,-46.3266,13.68
+MX,Mexico,Ciudad Juárez,  1 540,31.7333,-106.4833,13.5
+MX,United States of America,El Paso,   963,31.7776,-106.4425,13.5
+CA,Canada,London,   511,42.9834,-81.2330,13.35
+TX,Turkmenistan,Ashgabat,   865,37.9500,58.3833,13.32
+US,United States of America,Rockford,   326,42.2713,-89.0957,13.26
+PL,Poland,Bydgoszcz,   346,53.1235,18.0076,13.23
+CZ,Czechia,Praha (Prague),  1 312,50.0880,14.4208,13.16
+TM,Turkmenistan,Ashgabat,   865,37.9500,58.3833,13.16
+HR,Croatia,Zagreb,   685,45.8144,15.9780,13.12
+FR,France,Paris,  11 079,48.8534,2.3488,13.03
+EC,Ecuador,Quito,  1 901,-0.2299,-78.5250,12.93
+FR,France,Toulon,   581,43.1240,5.9332,12.9
+FR,France,Tours,   362,47.3833,0.6833,12.9
+ES,Spain,Murcia,   504,37.9870,-1.1300,12.82
+CH,Switzerland,Bern,   434,46.9481,7.4474,12.8
+GB,United Kingdom,Brighton-Worthing-Littlehampton,   612,50.8284,-0.1395,12.64
+ES,Spain,Vigo,   307,42.2328,-8.7226,12.63
+US,United States of America,McAllen,  1 037,26.2163,-98.2364,12.55
+BR,Brazil,Curitiba,  3 726,-25.4278,-49.2731,12.54
+PL,Poland,Łódź,   671,51.7594,19.4600,12.48
+GB,United Kingdom,Reading-Wokingham,   345,51.4112,-0.8356,12.36
+MX,Mexico,Chihuahua,  1 076,28.6333,-106.0833,12.32
+US,United States of America,Dayton,   741,39.7584,-84.1929,12.25
+GB,United Kingdom,Southampton/Portsmouth (South Hampshire),   936,50.9117,-1.4036,12.23
+US,United States of America,Cincinnati,  1 754,39.1047,-84.5188,12.09
+BE,Belgium,Antwerpen,  1 048,51.2199,4.4035,11.98
+FR,France,Rennes,   358,48.1120,-1.6743,11.9
+FR,France,Toulouse,  1 037,43.6043,1.4437,11.88
+GB,United Kingdom,West Yorkshire,  1 902,53.7984,-1.7649,11.87
+DE,Germany,München (Munich),  1 553,48.1371,11.5734,11.86
+AT,Austria,Wien (Vienna),  1 945,48.2064,16.3707,11.86
+RU,Russian Federation,Balashikha,   530,55.7982,37.9680,11.59
+ES,Spain,Barcelona,  5 624,41.3888,2.1590,11.57
+MX,Mexico,Guadalajara,  5 259,20.6667,-103.3333,11.57
+PH,Philippines,Binan,   398,14.3036,121.0781,11.51
+PH,Philippines,San Pedro,   366,14.3489,121.0392,11.51
+PH,Philippines,Santa Rosa,   448,14.2843,121.0889,11.51
+FR,France,Marseille-Aix-en-Provence,  1 614,43.5284,5.4433,11.45
+CA,Canada,Montréal,  4 247,45.5088,-73.5878,11.38
+BE,Belgium,Gent,   469,51.0500,3.7167,11.31
+MX,Mexico,Veracruz,   930,19.2000,-96.1333,11.24
+GB,United Kingdom,Belfast,   635,54.5947,-5.9298,11.19
+CO,Colombia,Medellín,  4 034,6.2518,-75.5636,11.17
+PL,Poland,Warszawa (Warsaw),  1 790,52.2298,21.0118,11.17
+ES,Spain,Madrid,  6 669,40.4165,-3.7026,11.11
+DE,Germany,Duesseldorf,   635,51.2217,6.7762,11.03
+BR,Brazil,Piracicaba,   405,-22.7253,-47.6492,10.92
+US,United States of America,"Jackson, Mississippi",   426,32.2957,-90.1840,10.92
+US,United States of America,Milwaukee,  1 443,43.0389,-87.9065,10.9
+US,United States of America,Cleveland,  1 760,41.4986,-81.6874,10.88
+IE,Ireland,Dublin,  1 242,53.3331,-6.2489,10.86
+ES,Spain,Bilbao,   349,43.2627,-2.9253,10.82
+US,United States of America,Harrisburg,   550,40.2717,-76.8850,10.65
+US,United States of America,Des Moines,   552,41.6005,-93.6091,10.65
+BR,Brazil,Taubaté,   316,-23.0264,-45.5553,10.64
+US,United States of America,Little Rock,   521,34.7420,-92.2754,10.57
+GB,United Kingdom,Cardiff,   481,51.4800,-3.1800,10.56
+ES,Spain,Valladolid,   304,41.6552,-4.7237,10.52
+DE,Germany,Köln (Cologne),  1 129,50.9333,6.9500,10.42
+GB,United Kingdom,Stoke-on-Trent (The Potteries),   388,53.0042,-2.1854,10.32
+MX,Mexico,Ensenada,   341,31.8667,-116.6167,10.31
+CA,Canada,Kitchener-Cambrigde-Waterloo,   571,43.4254,-80.5112,10.24
+DE,Germany,Stuttgart,   634,48.7823,9.1770,10.24
+FI,Finland,Helsinki,  1 317,60.1692,24.9402,10.21
+US,United States of America,Buffalo,   886,42.8879,-78.8716,10.19
+GB,United Kingdom,Manchester,  2 750,53.4810,-2.2374,10.17
+US,United States of America,"Jacksonville, Florida",  1 297,30.3322,-81.6557,10.13
+DE,Germany,Dresden,   581,51.0509,13.7383,10.04
+DE,Germany,Nurenberg,   512,49.4504,11.0758,10.04
+BE,Belgium,Charleroi,   415,50.4114,4.4445,10.0
+GB,United Kingdom,Leicester,   557,52.6386,-1.1317,9.92
+US,United States of America,Youngstown,   355,41.0963,-80.6493,9.92
+CA,Canada,Edmonton,  1 491,53.5434,-113.5037,9.8
+GB,United Kingdom,Coventry-Bedworth,   432,52.4066,-1.5122,9.76
+PE,Peru,Cusco,   480,-13.5183,-71.9781,9.73
+US,United States of America,Toledo,   509,41.6565,-83.5499,9.64
+FI,Finland,Tampere,   344,61.4991,23.7871,9.62
+DE,Germany,Wuppertal,   349,51.2667,7.1833,9.52
+US,United States of America,Allentown-Bethlehem,   770,40.6091,-75.4760,9.47
+GB,United Kingdom,Kingston upon Hull,   322,53.7483,-0.3340,9.4
+GB,United Kingdom,Birmingham (West Midlands),  2 626,52.4814,-1.8998,9.39
+US,United States of America,San Antonio,  2 368,29.4241,-98.4935,9.39
+IT,Italy,Napoli (Naples),  2 183,40.8502,14.2592,9.17
+AU,Australia,Adelaide,  1 345,-34.9287,138.5986,9.15
+PL,Poland,Szczecin,   400,53.4289,14.5530,9.09
+LT,Lithuania,Vilnius,   540,54.6892,25.2798,9.01
+US,United States of America,Corpus Christi,   348,27.7429,-97.4019,8.99
+US,United States of America,Denver-Aurora,  2 862,39.7343,-104.9831,8.83
+US,United States of America,St. Louis,  2 216,38.6286,-90.1972,8.77
+MA,Madagascar,Antananarivo,  3 532,-18.9137,47.5361,8.76
+MX,Mexico,Tijuana,  2 181,32.5333,-117.0167,8.7
+US,United States of America,Austin,  2 117,30.2700,-97.7400,8.69
+IT,Italy,Cagliari,   476,39.2074,9.1346,8.69
+US,United States of America,Tampa-St. Petersburg,  2 911,27.9475,-82.4584,8.61
+GB,United Kingdom,Nottingham,   794,52.9536,-1.1505,8.58
+US,United States of America,Louisville,  1 098,38.2419,-85.7631,8.47
+IT,Italy,Salerno,   420,40.6780,14.7660,8.44
+GB,United Kingdom,Bristol,   694,51.4552,-2.5966,8.44
+BE,Belgium,Liège,   680,50.6337,5.5675,8.41
+IT,Italy,Caserta,   429,41.0832,14.3349,8.34
+US,United States of America,Visalia,   420,36.3241,-119.3073,8.31
+CL,Chile,Santiago,  6 812,-33.4569,-70.6483,8.24
+FR,Switzerland,Genève,   620,46.2022,6.1457,8.2
+IT,Italy,Bari,   623,41.1177,16.8512,8.19
+GB,United Kingdom,Sheffield,   735,53.3830,-1.4659,8.08
+US,United States of America,Orlando,  2 002,28.5383,-81.3792,8.03
+CA,Canada,St. Catharines-Niagara,   418,43.1668,-79.2496,7.96
+CH,Switzerland,Zürich (Zurich),  1 408,47.3579,8.5030,7.94
+GB,United Kingdom,Newport,   318,51.5847,-2.9979,7.92
+PE,Peru,Huancayo,   391,-12.0667,-75.2333,7.87
+DK,Denmark,København (Copenhagen),  1 359,55.6759,12.5655,7.87
+CZ,Czechia,Brno,   379,49.1952,16.6080,7.82
+FR,France,Avignon,   472,43.9483,4.8089,7.7
+US,United States of America,Sacramento,  2 155,38.5816,-121.4944,7.66
+US,United States of America,Lafayette,   367,30.2242,-92.0197,7.62
+NL,Netherlands,Utrecht,   552,52.0908,5.1222,7.57
+FR,France,Lille,  1 068,50.6330,3.0586,7.52
+US,United States of America,Sarasota-Bradenton,   743,27.3364,-82.5307,7.43
+DE,Germany,Essen,   582,51.4537,7.0104,7.34
+US,United States of America,Houston,  6 491,29.7602,-95.3694,7.33
+US,United States of America,Omaha,   843,41.2586,-95.9378,7.28
+US,United States of America,Fort Collins,   343,40.5592,-105.0783,7.27
+US,United States of America,Detroit,  3 530,42.3871,-83.1026,7.26
+US,United States of America,Akron,   564,41.0814,-81.5190,7.22
+GB,United Kingdom,Sunderland,   342,54.9119,-1.3833,7.21
+BR,Brazil,Boa Vista,   350,2.8197,-60.6733,7.2
+GB,United Kingdom,Swansea,   313,51.6208,-3.9432,7.16
+FR,France,Valenciennes,   339,50.3500,3.5333,7.15
+GB,United Kingdom,Teeside (Middlesbrough),   389,54.5762,-1.2348,7.04
+SE,Sweden,Malmö,   326,55.6059,13.0007,7.03
+DE,Germany,Karlsruhe,   320,49.0047,8.3858,6.95
+US,United States of America,Riverside-San Bernardino,  2 514,33.9534,-117.3962,6.95
+US,Canada,Windsor,   338,42.2811,-83.0079,6.89
+NL,Netherlands,Amsterdam,  1 158,52.3740,4.8897,6.89
+FR,France,Grenoble,   531,45.1667,5.7167,6.85
+DE,Germany,Dortmund,   590,51.5167,7.4500,6.83
+MX,Mexico,Zacatecas,   375,22.7756,-102.5722,6.82
+US,United States of America,Lakeland,   351,28.0412,-81.9590,6.78
+MX,Mexico,Puebla,  3 245,19.0415,-98.2050,6.75
+US,United States of America,Colorado Springs,   677,38.8634,-104.7919,6.73
+DE,Germany,Hannover,   537,52.3705,9.7332,6.72
+FR,France,Rouen,   471,49.4431,1.0993,6.7
+US,United States of America,Chicago,  8 877,41.8500,-87.6501,6.66
+US,United States of America,Rochester,   744,43.1569,-77.6046,6.65
+US,United States of America,Knoxville,   756,35.9607,-83.9277,6.62
+CR,Costa Rica,Heredia,   344,10.0000,-84.1167,6.61
+CR,Costa Rica,San José,  1 421,9.9278,-84.0807,6.61
+US,United States of America,Worcester,   552,42.2626,-71.8023,6.57
+US,United States of America,Round Lake Beach-McHenry-Grayslake,   377,42.3540,-88.1005,6.56
+DE,Germany,Bremen,   566,53.0752,8.8078,6.54
+DE,Germany,Frankfurt am Main,   785,50.1167,8.6833,6.5
+CN,China,Sanya,   645,18.2676,109.5034,6.46
+CL,Chile,La Serena-Coquimbo,   494,-29.9045,-71.2489,6.43
+SK,Slovakia,Bratislava,   437,48.1482,17.1067,6.43
+US,United States of America,Modesto,   414,37.6615,-120.9945,6.4
+DE,Germany,Duisburg,   519,51.4333,6.7500,6.34
+ES,Spain,Las Palmas Gran Canaria,   403,28.1107,-15.4343,6.32
+US,United States of America,"Springfield, Missouri",   353,37.2083,-93.2914,6.28
+US,United States of America,Oxnard,   399,34.1975,-119.1771,6.25
+FR,France,Douai-Lens,   501,50.3682,3.0795,6.2
+IT,Italy,Roma (Rome),  4 278,41.8947,12.4811,6.19
+US,United States of America,New York-Newark,  18 823,40.7170,-74.0037,6.18
+US,United States of America,Boston,  4 315,42.3479,-71.0645,6.17
+GB,United Kingdom,Preston,   330,53.7610,-2.7024,6.16
+US,United States of America,Charleston-North Charleston,   721,32.7893,-79.9863,6.12
+NL,Netherlands,Rotterdam,  1 012,51.9225,4.4792,6.08
+US,United States of America,Huntsville,   392,34.7297,-86.5898,6.07
+PL,Poland,Gdańsk,   466,54.3521,18.6464,6.06
+BR,Brazil,São José do Rio Preto,   444,-20.8197,-49.3794,6.0
+US,United States of America,Hartford,  1 004,41.7637,-72.6851,5.99
+FR,France,Béthune,   359,50.5333,2.6333,5.85
+GR,Greece,Athínai (Athens),  3 153,37.9534,23.7490,5.79
+US,United States of America,Palm Bay-Melbourne,   524,28.0590,-80.5983,5.76
+BE,Belgium,Bruxelles-Brussel,  2 096,50.8467,4.3499,5.69
+DE,Germany,Hamburg,  1 789,53.5500,10.0000,5.65
+US,United States of America,Salt Lake City,  1 180,40.7547,-111.8926,5.58
+CA,Canada,Halifax,   415,44.6477,-63.5818,5.56
+CA,Canada,Victoria,   390,48.4329,-123.3693,5.55
+BR,Brazil,Rio Branco,   375,-9.9747,-67.8100,5.48
+AU,Australia,Melbourne,  5 061,-37.8140,144.9633,5.47
+GB,United Kingdom,Birkenhead,   330,53.3934,-3.0148,5.44
+GB,United Kingdom,Liverpool,   906,53.4106,-2.9779,5.44
+US,United States of America,Ogden-Layton,   725,41.2230,-111.9738,5.4
+US,United States of America,Indianapolis,  1 833,39.7909,-86.1477,5.36
+US,United States of America,Durham,   424,35.9886,-78.9072,5.31
+US,United States of America,Savannah,   329,32.0671,-81.1005,5.29
+CL,Chile,Antofagasta,   445,-23.6500,-70.4000,5.24
+US,United States of America,Birmingham,   849,33.5157,-86.8011,5.23
+CA,Canada,Ottawa-Gatineau,  1 408,45.4166,-75.6980,5.18
+US,United States of America,Bakersfield,   705,35.3573,-119.0317,5.12
+US,United States of America,Baltimore,  2 333,39.2904,-76.6122,5.1
+US,United States of America,Grand Rapids,   601,42.9564,-85.6649,5.08
+IN,India,Srinagar,  1 622,34.0837,74.7974,5.06
+US,United States of America,Atlanta,  5 911,33.7600,-84.4000,5.0
+US,United States of America,Stockton,   441,37.9577,-121.2908,4.98
+US,United States of America,Pittsburgh,  1 700,40.4418,-79.9882,4.96
+US,United States of America,Augusta-Richmond County,   448,33.4671,-81.9902,4.86
+NO,Norway,Oslo,  1 056,59.9127,10.7461,4.81
+US,United States of America,"Washington, D.C.",  5 378,38.8951,-77.0364,4.67
+AU,Australia,Newcastle-Maitland,   454,-32.9249,151.7409,4.63
+US,United States of America,New Orleans,   998,29.9547,-90.0751,4.62
+NZ,New Zealand,Christchurch,   400,-43.5333,172.6333,4.57
+US,United States of America,Chattanooga,   423,35.0455,-85.2673,4.54
+US,United States of America,Fayetteville,   349,35.0667,-78.9176,4.48
+ES,Spain,Valencia,   835,39.4698,-0.3774,4.44
+GB,United Kingdom,Glasgow,  1 681,55.8652,-4.2576,4.42
+US,United States of America,Lexington-Fayette,   337,38.0296,-84.4946,4.4
+US,United States of America,"Columbus, Ohio",  1 666,39.9622,-83.0002,4.38
+GB,United Kingdom,Newcastle upon Tyne,   814,54.9733,-1.6140,4.36
+US,United States of America,Bonita Springs-Naples,   445,26.3398,-81.7787,4.32
+US,Puerto Rico,San Juan,  2 445,18.4663,-66.1057,4.3
+TT,Trinidad and Tobago,Port of Spain,   544,10.6662,-61.5166,4.27
+US,United States of America,Winston-Salem,   519,36.1028,-80.2605,4.11
+US,United States of America,Temecula-Murrieta,   892,33.5364,-117.1631,3.83
+US,United States of America,"Springfield, Massachusett, Connecticut",   672,42.1015,-72.5898,3.82
+US,United States of America,Los Angeles-Long Beach-Santa Ana,  12 459,34.0317,-118.2417,3.77
+DE,Germany,Bochum,   378,51.4833,7.2167,3.76
+AU,Australia,Gold Coast-Tweed Head,   711,-28.0003,153.4309,3.76
+NL,Netherlands,s-Gravenhage (The Hague),   704,52.0767,4.2986,3.75
+MX,Mexico,Hermosillo,   884,29.0845,-110.9672,3.71
+US,United States of America,Ann Arbor,   329,42.2776,-83.7409,3.71
+BG,Bulgaria,Varna,   335,43.2167,27.9167,3.71
+ES,Spain,Alicante,   373,38.3452,-0.4815,3.67
+US,United States of America,Trenton,   331,40.2171,-74.7429,3.64
+US,United States of America,San Diego,  3 272,32.7153,-117.1573,3.58
+BR,Brazil,Pôrto Velho,   521,-8.7619,-63.9039,3.57
+US,United States of America,Mission Viejo,   639,33.6000,-117.6720,3.52
+MX,Mexico,Mexicali,  1 140,32.6519,-115.4683,3.52
+US,United States of America,Reno,   514,39.5296,-119.8138,3.46
+SE,Sweden,Göteborg,   618,57.7032,11.9663,3.36
+US,United States of America,Greenville,   540,34.8498,-82.3973,3.24
+US,United States of America,Concord,   421,35.4088,-80.5795,3.19
+US,United States of America,Victorville-Hesperia-Apple Valley,   558,34.5340,-117.2958,2.98
+US,United States of America,Richmond,  1 117,37.5432,-77.4382,2.95
+US,United States of America,Honolulu,   898,21.3090,-157.8262,2.92
+GB,United Kingdom,Edinburgh,   543,55.9521,-3.1965,2.92
+US,United States of America,Myrtle Beach,   393,33.6891,-78.8867,2.9
+BR,Brazil,Manaus,  2 302,-3.1019,-60.0250,2.9
+US,United States of America,Minneapolis-St. Paul,  2 946,44.9731,-93.2699,2.88
+US,United States of America,Santa Clarita,   404,34.3917,-118.5426,2.82
+US,United States of America,Providence,  1 200,41.8240,-71.4177,2.81
+US,United States of America,Albuquerque,   929,35.1107,-106.6100,2.75
+US,United States of America,Spokane,   452,47.6733,-117.4103,2.74
+US,United States of America,San Francisco-Oakland,  3 313,37.7599,-122.4374,2.68
+US,United States of America,Fresno,   777,36.7545,-119.7711,2.61
+US,United States of America,Raleigh,  1 498,35.7789,-78.6375,2.59
+US,United States of America,Cape Coral,   882,26.6396,-81.9825,2.38
+FR,France,Montpellier,   468,43.6109,3.8772,2.35
+US,United States of America,Antioch,   359,38.0000,-121.8100,2.29
+US,United States of America,Greensboro,   365,36.0732,-79.7918,2.26
+US,United States of America,Nashville-Davidson,  1 272,36.1610,-86.7830,2.26
+US,United States of America,Concord,   688,37.9780,-122.0311,2.24
+US,United States of America,Asheville,   360,35.5799,-82.5558,2.22
+US,United States of America,Indio-Cathedral City-Palm Springs,   478,33.7199,-116.2319,2.22
+NZ,New Zealand,Wellington,   417,-41.2866,174.7756,2.1
+BR,Brazil,Fortaleza,  4 120,-3.7412,-38.5436,2.1
+US,United States of America,Lancaster-Palmdale,   504,34.6869,-118.1509,2.09
+US,United States of America,Charlotte,  2 132,35.2271,-80.8431,2.01
+CA,Canada,Saskatoon,   331,52.1168,-106.6345,1.96
+US,Mexico,Mexicali,  1 140,32.6519,-115.4683,1.95
+AU,Australia,Canberra,   462,-35.2835,149.1281,1.94
+AU,Australia,Sunshine Coast,   353,-26.6601,153.0995,1.94
+US,Mexico,Ciudad Juárez,  1 540,31.7333,-106.4833,1.91
+US,United States of America,San Jose,  1 799,37.3394,-121.8950,1.89
+AU,Australia,Perth,  2 067,-31.9478,115.8525,1.85
+ES,Spain,Malaga,   591,36.7202,-4.4203,1.78
+EE,Estonia,Tallinn,   449,59.4370,24.7535,1.78
+CA,Canada,Vancouver,  2 606,49.2497,-123.1193,1.71
+US,United States of America,Seattle,  3 461,47.6264,-122.3331,1.52
+US,United States of America,El Paso,   963,31.7776,-106.4425,1.4
+US,United States of America,Portland,  2 174,45.5215,-122.6799,1.37
+ZA,South Africa,Cape Town,  4 710,-33.9258,18.4232,1.33
+AU,Australia,Sydney,  4 992,-33.8679,151.2073,1.29
+AU,Australia,Brisbane,  2 439,-27.4679,153.0281,1.29
+SE,Sweden,Stockholm,  1 657,59.3326,18.0649,1.08
+US,United States of America,Boise City,   455,43.6195,-116.2123,0.88
+US,United States of America,Las Vegas,  2 772,36.1699,-115.1398,0.77
+US,United States of America,Santa Rosa,   333,38.4405,-122.7144,0.75
+US,United States of America,Phoenix-Mesa,  4 584,33.4495,-112.0747,0.71
+TH,Thailand,Khon-Kaen,   509,16.4467,102.8330,0.64
+RO,Romania,Bucuresti (Bucharest),  1 794,44.4328,26.1043,0.61
+CA,Canada,Calgary,  1 581,51.0441,-114.0593,0.54
+US,United States of America,Tucson,   993,32.2145,-110.9182,0.26

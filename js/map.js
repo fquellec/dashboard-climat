@@ -38,26 +38,30 @@ const tooltip = d3.select("#map")
     .style("background-color", "white")
     .style("border", "solid white")
     .style("border-width", "2px")
-    .style("border-radius", "0px")
+    .style("border-radius", "5px")
     .style("padding", "5px")
     .style("position", "absolute")
     .style("width", config.tooltip_width)
     .style("pointer-events", "none")
-    .style("box-shadow", "0.5px 0.8px 1px 0.5px");
+    .style("webkit-box-shadow", "0px 0px 10px grey")
+    .style("moz-box-shadow",  "0px 0px 10px grey")
+    .style("box-shadow", "0px 0px 10px grey");
 
 // Color scales
 //const colorScale = d3.scaleLinear()
 //  .domain(config.colorScaleDomain)
 //  .range(config.colorScaleRange);
 d3.queue()
-    //.defer(d3.csv, 'data.csv', function (d) {
-    //    return {
-    //        id: +(d.state + d.county),
-    //        state: d.state,
-    //        county: d.county,
-    //        unemployment: +d.unemployment
-    //    }
-    //})
+    .defer(d3.csv, 'assets/openAQMap.csv', function (d) {
+        return {
+            country: d.country_name,
+            city: d.city_name,
+            population: +d.population,
+            lat: +parseFloat(d.lat),
+            lon: +parseFloat(d.lon),
+            value: +d.value
+        }
+    })
     .defer(d3.json, 'assets/countries.json')
     .defer(d3.json, 'assets/cantons_ch.json')
     .awaitAll(initialize)
@@ -66,8 +70,13 @@ function initialize(error, data){
   if (error) { throw error }
 
   // Get data
-  const geojson = data[0];
-  const cantons = data[1];
+  
+  const bubbleData   = data[0]
+  const geojson = data[1];
+  const cantons = data[2];
+
+
+
 
   // Map projection to compute coordinates 
   const projection = d3.geoIdentity().reflectY(true).fitSize([config.width - config.padding*2, config.height - config.padding*2], geojson);//translate([config.width/2, config.height/2]).scale(2)
@@ -91,16 +100,82 @@ function initialize(error, data){
         .style("stroke-width", "1px")
         .style("stroke-opacity", "1")
         .on('mouseover', function(event, d) {
-          d3.select(this.parentNode.appendChild(this)).style('stroke', config.borderColor[1]);
+          //d3.select(this.parentNode.appendChild(this)).style('stroke', config.borderColor[1]);
         }).on('mouseout', function(event, d) {
-          d3.select(this).style('stroke', config.borderColor[0]);
+          //d3.select(this).style('stroke', config.borderColor[0]);
+        })
+
+    var minPm = d3.min(bubbleData, function(d) { return +d.value; });
+    var maxPm = d3.max(bubbleData, function(d) { return +d.value; });
+    console.log("min PM: ",  minPm, " ; max PM: ", maxPm)
+    var color = d3.scaleLinear()
+      .domain([0, 100])
+      .range(["#FFCE03", "#F00505"])
+
+    // Add a scale for bubble size
+    var minPop = d3.min(bubbleData, function(d) { return +d.population; });
+    var maxPop = d3.max(bubbleData, function(d) { return +d.population; });
+    var size = d3.scaleLinear()
+      .domain([minPop,maxPop])  // What's in the data
+      .range([ 1, 8])  // Size in pixel
+
+    // Bubbles 
+    const bubbles = map
+      .selectAll("bubbles")
+      .data(bubbleData)
+      .enter()
+      .append("circle")
+        .attr("cx", function(d){ return projection([d.lon, d.lat])[0] })
+        .attr("cy", function(d){ return projection([d.lon, d.lat])[1] })
+        .attr("r", function(d){ return size(d.population) })
+        .style("fill", function(d){ return  color(d.value) })
+        .attr("stroke", function(d){ return  "white" })
+        .attr("stroke-width", 1)
+        .attr("fill-opacity", .4)
+        .on("mouseover", function(d){
+          tooltip.style("opacity", 1)
+          d3.select(this.parentNode.appendChild(this)).style('stroke', "black");
+        })
+        .on("mousemove", function(d){
+          const tooltipWidth = tooltip.node().getBoundingClientRect().width 
+          const tooltipHeight =  tooltip.node().getBoundingClientRect().height 
+          const mapWidth = svg.node().getBoundingClientRect().width 
+          const mapHeight = svg.node().getBoundingClientRect().height 
+
+          var leftPos = event.pageX
+          var topPos = event.pageY
+
+          if (leftPos > mapWidth/2){
+            leftPos = leftPos - tooltipWidth - 20
+          } else {
+            leftPos = leftPos + 20
+          }
+
+          if (topPos > mapHeight/2){
+            topPos = topPos - tooltipHeight
+          }
+
+          var textToDisplay = "<b>" + d.city + ", " + d.country + "</b><br>" 
+                              + "<b>Population : </b>" + d.population + "M<br>"
+                              + "<b>PM2.5      : </b>" + d.value + " μg/m<sup>3</sup><br>"
+                              + d.lat + ", "+d.lon;
+
+
+          tooltip
+            .html(textToDisplay)
+            .style("left", leftPos + "px")
+            .style("top", topPos + "px")
+        })
+        .on("mouseleave", function(d){
+           tooltip.style("opacity", 0);
+           d3.select(this).style('stroke', 'white');
         })
 
 
   d3.select("#swissButton").on("click", swissZoom )
   function swissZoom() {
         var t = d3.transition().duration(1800)
-        
+
         var cantonPaths = map.selectAll('.canton')
             .data(cantons.features)
 
@@ -113,9 +188,9 @@ function initialize(error, data){
             .style('fill', function (d) { return "#F2F2F2" })
             .style('opacity', 0)
             .on('mouseover', function(event, d) {
-              d3.select(this.parentNode.appendChild(this)).style('stroke', config.borderColor[1]);
+              //d3.select(this.parentNode.appendChild(this)).style('stroke', config.borderColor[1]);
             }).on('mouseout', function(event, d) {
-              d3.select(this).style('stroke', config.borderColor[0]);
+              //d3.select(this).style('stroke', config.borderColor[0]);
             })
 
        
@@ -127,6 +202,12 @@ function initialize(error, data){
         })
 
         projection.fitSize([config.width - config.padding*2, config.height - config.padding*2], cantons);
+
+        bubbles.transition(t)
+            .attr("cx", function(d){ return projection([d.lon, d.lat])[0] })
+            .attr("cy", function(d){ d3.select(this.parentNode.appendChild(this));return projection([d.lon, d.lat])[1] });
+
+        
 
         countryPaths.transition(t)
             .attr('d', path)
@@ -151,6 +232,10 @@ function initialize(error, data){
     var t = d3.transition().duration(1800)
 
     projection.fitSize([config.width - config.padding*2, config.height - config.padding*2], geojson);
+    
+    bubbles.transition(t)
+          .attr("cx", function(d){ return projection([d.lon, d.lat])[0] })
+          .attr("cy", function(d){ d3.select(this.parentNode.appendChild(this));return projection([d.lon, d.lat])[1] });
 
     countryPaths.transition(t)
         .attr('d', path)
@@ -161,9 +246,9 @@ function initialize(error, data){
         .style('fill', function (d) { return "#F2F2F2"})
 
     countryPaths.on('mouseover', function(event, d) {
-                d3.select(this.parentNode.appendChild(this)).style('stroke', config.borderColor[1]);
+                //d3.select(this.parentNode.appendChild(this)).style('stroke', config.borderColor[1]);
               }).on('mouseout', function(event, d) {
-                d3.select(this).style('stroke', config.borderColor[0]);
+                //d3.select(this).style('stroke', config.borderColor[0]);
               })
 
     map.selectAll('.canton')

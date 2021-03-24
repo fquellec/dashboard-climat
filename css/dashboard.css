@@ -1,3 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+
+@font-face {
+  font-family: EuclidFlex;
+  src: url(/assets/fonts/EuclidFlex-Regular.otf);
+}
+@font-face {
+  font-family: EuclidFlex;
+  src: url(/assets/fonts/EuclidFlex-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: EuclidFlex;
+  src: url(/assets/fonts/EuclidFlex-Italic.otf);
+  font-style: italic;
+}
+
 :root {
   --jumbotron-padding-y: 1rem;
 }
