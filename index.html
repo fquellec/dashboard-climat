@@ -59,14 +59,13 @@
        <section class="jumbotron text-center">
         <div class="container">
           <div class="btn-group" role="group">
-            <button type="radio" class="btn btn-primary customButton" id="worldButton">Monde</button>
-            <button type="radio" class="btn btn-primary customButton" id="swissButton">Suisse</button>
+            <button type="radio" class="btn customButton" id="worldButton">Monde</button>
+            <button type="radio" class="btn customButton" id="swissButton">Suisse</button>
           </div>
           <div id="map"><div id="heatmap"></div></div>
-          <select class="customSelect">
-            <option>Pollution de l'air</option>
-            <option>Déforestation</option>
-            <option>Gaz à effet de serre</option>
+          <select class="customSelect" id="selectData">
+            <option value="air-pollution">Pollution de l'air</option>
+            <option value="deforestation">Déforestation</option>
           </select>
 
         </div>
@@ -121,7 +120,10 @@
     <script src="https://d3js.org/d3-color.v2.min.js"></script>   
 
     <!-- Custom js -->
+    <script src="js/forest.js"></script>
+    <script src="js/openAQ.js"></script>
     <script src="js/map.js"></script>
+    
     
   </body>
 </html>

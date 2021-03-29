@@ -1,0 +1,63 @@
+Global gross forest cover loss from 2000 to 2005
+
+---------------------------------------------------------------------------------
+
+32-bit real data
+2160 pixels by 1080 lines
+Data format: GeoTiff. This data is importable to any image viewing software. 
+
+ Projection                     :    	Sinusoidal
+ Earth Ellipsoid                :    	Sphere, rad 6370997 m
+ Upper Left Corner (m)          :       --20015108.640 X  10007554.320 Y      
+ Pixel size (m)                 :       18532.508 X  18532.508 Y  
+
+---------------------------------------------------------------------------------
+
+Values
+0-100 = percent forest cover loss per pixel
+
+---------------------------------------------------------------------------------
+
+This dataset represents 2000-2005 gross forest cover loss. 
+A separate regression estimator (i.e. separate regression models and 
+parameter estimates allowed for each stratum) and post-stratification 
+were employed to estimate Landsat-calibrated forest cover loss area. For 
+sample blocks with intensive change a simple linear regression model was 
+applied using the proportion of area within the sample block classified 
+as MODIS-derived forest loss as the auxiliary variable. For low-change 
+blocks post-stratification based on VCF tree canopy cover was implemented
+to partition blocks into areas of nearly zero change and areas of some change.
+The forest cover loss area estimates were then constructed from the sample
+mean Landsat-derived clearing within post-strata. 
+
+---------------------------------------------------------------------------------
+
+This data is a part of Global Forest Monitoring Project provided by
+Geographic Information Science Center of Excellence (GIScCE)
+1021 Medary Ave., Wecota Hall Box 506B, Brookings, SD 57007. (605) 688-6591
+
+The project's web site:
+http://globalmonitoring.sdstate.edu/projects/gfm/index.html
+
+---------------------------------------------------------------------------------
+
+Provided MODIS-derived data are available for use for valid scientific, 
+conservation, and educational purposes as long as proper citations are 
+used. We ask that you credit the Global Forest Monitoring data as follows:
+
+Hansen M., Stehman S., Potapov P. (2010) Quantification of global gross
+forest cover loss. Proceedings of the National Academy of Sciences of the U.S.A.
+
+---------------------------------------------------------------------------------
+
+For further information, please contact:
+
+Dr. Matthew Hansen
+Geographic Information Science Center of Excellence - SDSU
+Phone: (605) 688-6848
+Matthew.Hansen@sdstate.edu
+
+Dr. Peter Potapov
+Geographic Information Science Center of Excellence - SDSU
+Phone: (605) 688-5814
+Peter.Potapov@sdstate.edu

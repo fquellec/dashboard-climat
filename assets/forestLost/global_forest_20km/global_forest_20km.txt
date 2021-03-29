@@ -1,0 +1,60 @@
+Global forest cover for year 2000
+
+---------------------------------------------------------------------------------
+
+32-bit real data
+2160 pixels by 1080 lines
+Data format: GeoTiff. This data is importable to any image viewing software. 
+
+ Projection                     :    	Sinusoidal
+ Earth Ellipsoid                :    	Sphere, rad 6370997 m
+ Upper Left Corner (m)          :       --20015108.640 X  10007554.320 Y      
+ Pixel size (m)                 :       18532.508 X  18532.508 Y  
+
+---------------------------------------------------------------------------------
+
+Values
+0-100 = percent forest cover per pixel
+
+---------------------------------------------------------------------------------
+
+This dataset represents global forest cover extent for year 2000. 
+Forests were defined as areas with tree canopy cover greater than 25%. 
+The Landsat-analyzed sample block classification results were used to 
+calibrate biome-wide MODIS-derived forest extent. The relationship 
+between Landsat-based forest cover area and mean VCF tree canopy density 
+per sample block 18.5 km per side was used to derive forest extent for 
+year 2000. A simple linear regression (no intercept) model was used with 
+mean VCF tree canopy density per block as the independent variable. 
+
+---------------------------------------------------------------------------------
+
+This data is a part of Global Forest Monitoring Project provided by
+Geographic Information Science Center of Excellence (GIScCE)
+1021 Medary Ave., Wecota Hall Box 506B, Brookings, SD 57007. (605) 688-6591
+
+The project's web site:
+http://globalmonitoring.sdstate.edu/projects/gfm/index.html
+
+---------------------------------------------------------------------------------
+
+Provided MODIS-derived data are available for use for valid scientific, 
+conservation, and educational purposes as long as proper citations are 
+used. We ask that you credit the Global Forest Monitoring data as follows:
+
+Hansen M., Stehman S., Potapov P. (2010) Quantification of global gross
+forest cover loss. Proceedings of the National Academy of Sciences of the U.S.A.
+
+---------------------------------------------------------------------------------
+
+For further information, please contact:
+
+Dr. Matthew Hansen
+Geographic Information Science Center of Excellence - SDSU
+Phone: (605) 688-6848
+Matthew.Hansen@sdstate.edu
+
+Dr. Peter Potapov
+Geographic Information Science Center of Excellence - SDSU
+Phone: (605) 688-5814
+Peter.Potapov@sdstate.edu
